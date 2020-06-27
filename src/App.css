@@ -1,7 +1,69 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("./assest/bgr.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
 }
-
+.time-controller {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.time-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.time {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #ff4081;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.time-title {
+  margin-top: 10px;
+  font-family: "Arizonia", cursive;
+  /* font-family: BaseFiolexGirl; */
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+.time-number {
+  margin-top: 10px;
+  font-family: "Arizonia", cursive;
+  /* font-family: BaseFiolexGirl; */
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+.title {
+  font-family: "Arizonia", cursive;
+  /* font-family: BaseFiolexGirl; */
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.heart-icon {
+ width: 30px;
+ height: 30px;
+ margin-top: 50px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
